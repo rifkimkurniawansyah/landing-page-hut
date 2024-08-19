@@ -45,7 +45,7 @@ export default function AboutUs() {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             About Us
           </h2>
-          <p className="font-light text-slate-400 lg:mb-16 sm:text-xl">
+          <p className="font-light text-gray-300 lg:mb-16 sm:text-xl">
             Kami adalah tentara siber yang siap bekerja secara professional
             untuk perusahaan bangsa dan negara!
           </p>
