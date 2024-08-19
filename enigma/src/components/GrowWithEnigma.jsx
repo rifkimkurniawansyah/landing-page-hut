@@ -9,10 +9,10 @@ import Picture8 from "../assets/9.jpg";
 
 export default function GrowWithEnigma() {
   return (
-    <section className="flex flex-col h-screen bg-gray-900">
+    <section className="flex flex-col min-h-screen bg-gray-900 py-20">
       <header className=" py-6">
         <h2 className="text-4xl font-bold text-center text-white underline underline-offset-8 decoration-blue-500">
-          Grow <span className="text-blue-500 text-6xl">With</span> Enigma
+          Grow <span className="text-blue-500 text-4xl">With</span> Enigma
         </h2>
       </header>
       <div className="flex-1 container mx-auto px-4 mt-10 ">

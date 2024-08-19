@@ -15,7 +15,7 @@ export default function Hero() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="bg-gradient-to-r opacity-70 hover:opacity-100 rounded-lg from-blue-500 to-blue-900 text-white p-8 shadow-lg max-sm:px-2">
+        <div className="bg-gradient-to-r opacity-70 hover:opacity-100 rounded-lg from-blue-500 to-blue-900 text-white p-8 shadow-lg max-sm:mx-2">
           <div className="text-center">
             <h2 className="text-4xl font-extrabold mb-4">Celebrate</h2>
             <p className="text-lg mb-4">With Enigma</p>
