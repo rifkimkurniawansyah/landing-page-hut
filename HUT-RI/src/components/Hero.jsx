@@ -8,13 +8,13 @@ const Hero = () => {
           <img src={dirgahayu} />
         </div>
       </div>
-      <div className="bg-red-600 text-white text-center py-4 mt-4">
-        <p className="marquee">
+        <div className="bg-red-600 text-white text-center py-4 mt-4">
+            <p className="marquee">
           <span>
             JAYALAH NEGERIKU TERCINTA ✦ SATU NUSA SATU BANGSA ✦ INDONESIA
           </span>
-        </p>
-      </div>
+            </p>
+        </div>
     </section>
   );
 };

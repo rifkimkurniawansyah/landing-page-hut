@@ -13,7 +13,7 @@ const Navbar = () => {
             <img
                 src="../src/assets/logo79.png"
                 alt="Logo 79"
-                className="w-32 md:w-40 h-auto"
+                className="w-32 md:w-40 h-auto animate-bounce"
             />
 
             {/* Desktop NavBar */}
