@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./components/pages/HomePages.jsx";
 import Layout from "./components/layout/Layout.jsx";
+import './index.css'
 
 function App() {
 
