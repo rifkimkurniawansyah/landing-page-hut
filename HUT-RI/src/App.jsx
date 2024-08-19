@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import Hero from './components/Hero'
+import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 
 import SejarahKemerdekaan from "./components/SejarahKemerdekaan";
@@ -8,10 +7,6 @@ import "animate.css/animate.compat.css";
 
 function App() {
   return (
-    <>
-      <Hero />
-    </>
-  )
     <div
       className="bg-fixed overflow-hidden"
       style={{
@@ -21,6 +16,7 @@ function App() {
         backgroundSize: "cover",
       }}
     >
+      <Hero />
       <SejarahKemerdekaan />
       <AboutUs />
     </div>
