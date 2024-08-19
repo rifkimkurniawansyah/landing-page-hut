@@ -39,28 +39,33 @@ export default function FilosofiLogo() {
                     alt="Content Image 1"
                     className="w-full h-full object-cover rounded-lg border border-gray-300 shadow-md transition-transform duration-500 transform hover:scale-105"
                   />
-                  <h2 className="text-xl font-semibold mb-2 pt-5 pb-2 transition-opacity duration-500 hover:opacity-75  animate-fadeIn">
-                    Elemen Grafis Logo
-                  </h2>
-                  <p className="text-black-700 mb-4 text-justify">
-                    Mengutip penjelasan Kementerian Sekretariat Negara, elemen
-                    grafis logo ini terinspirasi dari aliran sungai yang
-                    merupakan sumber kehidupan. Secara umum sungai memiliki
-                    cabang-cabang yang pada akhirnya akan mengarah pada satu
-                    muara yang sama.
-                  </p>
+                  <div className="bg-slate-50 shadow-lg mt-4 p-4 rounded-lg">
+                    <h2 className="text-xl font-semibold mb-2 pb-2 transition-opacity duration-500 hover:opacity-75  animate-fadeIn">
+                      Elemen Grafis Logo
+                    </h2>
+                    <p className="text-black-700 mb-4 text-justify">
+                      Mengutip penjelasan Kementerian Sekretariat Negara, elemen
+                      grafis logo ini terinspirasi dari aliran sungai yang
+                      merupakan sumber kehidupan. Secara umum sungai memiliki
+                      cabang-cabang yang pada akhirnya akan mengarah pada satu
+                      muara yang sama.
+                    </p>
+                  </div>
                 </div>
                 <div className="flex flex-col items-center md:items-start md:w-1/2 mt-6 md:mt-0 pl-3 pb-2 mb-2">
-                  <h2 className="text-xl font-semibold mb-2 transition-opacity duration-500 hover:opacity-75  animate-fadeIn">
-                    Logo HUT ke-79 RI
-                  </h2>
-                  <p className="text-gray-700 mb-4 text-justify">
-                    Logo HUT ke-79 RI merupakan hasil desain oleh Inggrid Wenas,
-                    salah satu anggota Asosiasi Desainer Grafis Indonesia (ADGI)
-                    asal Surabaya, Jawa Timur. Desain dari logo ini terdiri dari
-                    angka 79 yang menjadi tanda usia Indonesia, dan tulisan tema
-                    “Nusantara Baru Indonesia Maju”.
-                  </p>
+                  <div className="bg-slate-50 shadow-lg mb-4 p-4 rounded-lg">
+                    <h2 className="text-xl font-semibold mb-2 transition-opacity duration-500 hover:opacity-75  animate-fadeIn">
+                      Logo HUT ke-79 RI
+                    </h2>
+                    <p className="text-gray-700 mb-4 text-justify">
+                      Logo HUT ke-79 RI merupakan hasil desain oleh Inggrid
+                      Wenas, salah satu anggota Asosiasi Desainer Grafis
+                      Indonesia (ADGI) asal Surabaya, Jawa Timur. Desain dari
+                      logo ini terdiri dari angka 79 yang menjadi tanda usia
+                      Indonesia, dan tulisan tema “Nusantara Baru Indonesia
+                      Maju”.
+                    </p>
+                  </div>
                   <img
                     src={contentImage2}
                     alt="Content Image 2"
