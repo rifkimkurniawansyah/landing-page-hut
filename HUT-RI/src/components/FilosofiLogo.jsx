@@ -4,7 +4,7 @@ import contentImage2 from "../assets/Filosopi Elemen.jpg";
 
 export default function FilosofiLogo() {
   return (
-    <>
+    <section id="filosofi">
       <div className="flex flex-col min-h-screen">
         <header className="bg-red-600 text-white flex items-center justify-center p-6 animate-fadeIn">
           <div className="flex items-center space-x-4">
@@ -39,9 +39,9 @@ export default function FilosofiLogo() {
                     alt="Content Image 1"
                     className="w-full h-full object-cover rounded-lg border border-gray-300 shadow-md transition-transform duration-500 transform hover:scale-105"
                   />
-                  <div className="bg-slate-50 shadow-lg mt-4 p-4 rounded-lg">
+                  <div className="bg-slate-50 shadow-lg mt-4 p-4 rounded-lg hover:ring-1 hover:ring-red-500">
                     <h2 className="text-xl font-semibold mb-2 pb-2 transition-opacity duration-500 hover:opacity-75  animate-fadeIn">
-                      Elemen Grafis Logo
+                      <span className="text-red-500">Elemen</span> Grafis Logo
                     </h2>
                     <p className="text-black-700 mb-4 text-justify">
                       Mengutip penjelasan Kementerian Sekretariat Negara, elemen
@@ -52,10 +52,10 @@ export default function FilosofiLogo() {
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-col items-center md:items-start md:w-1/2 mt-6 md:mt-0 pl-3 pb-2 mb-2">
-                  <div className="bg-slate-50 shadow-lg mb-4 p-4 rounded-lg">
+                <div className="flex flex-col items-center md:items-start md:w-1/2 mt-6 md:mt-0  pb-2 mb-2">
+                  <div className="bg-slate-50 shadow-lg mb-4 p-4 rounded-lg hover:ring-1 hover:ring-red-500">
                     <h2 className="text-xl font-semibold mb-2 transition-opacity duration-500 hover:opacity-75  animate-fadeIn">
-                      Logo HUT ke-79 RI
+                      Logo HUT <span className="text-red-500">ke-79 RI</span>
                     </h2>
                     <p className="text-gray-700 mb-4 text-justify">
                       Logo HUT ke-79 RI merupakan hasil desain oleh Inggrid
@@ -77,6 +77,6 @@ export default function FilosofiLogo() {
           </div>
         </main>
       </div>
-    </>
+    </section>
   );
 }

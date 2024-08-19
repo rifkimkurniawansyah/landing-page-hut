@@ -1,10 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPersonRifle,
-  faHandshake,
-  faScroll,
-  faHandFist,
-} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHandFist, faHandshake, faPersonRifle, faScroll,} from "@fortawesome/free-solid-svg-icons";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export default function SejarahKemerdekaan() {
@@ -27,7 +22,7 @@ export default function SejarahKemerdekaan() {
             <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-red-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
               <FontAwesomeIcon icon={faPersonRifle} />
             </div>
-            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow">
+            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow-xl hover:scale-105 transition ease-out duration-200">
               <div className="flex items-center justify-between space-x-2 mb-1">
                 <div className="font-bold text-slate-900">
                   Penjajahan oleh Belanda
@@ -67,7 +62,7 @@ export default function SejarahKemerdekaan() {
             <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-red-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
               <FontAwesomeIcon icon={faPersonRifle} />
             </div>
-            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow">
+            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow-xl hover:scale-105 transition ease-out duration-200">
               <div className="flex items-center justify-between space-x-2 mb-1">
                 <div className="font-bold text-slate-900">
                   Pendudukan Jepang
@@ -102,7 +97,7 @@ export default function SejarahKemerdekaan() {
             <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-red-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
               <FontAwesomeIcon icon={faHandshake} />
             </div>
-            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow">
+            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow-xl hover:scale-105 transition ease-out duration-200">
               <div className="flex items-center justify-between space-x-2 mb-1">
                 <div className="font-bold text-slate-900">
                   Pergerakan Nasional
@@ -144,7 +139,7 @@ export default function SejarahKemerdekaan() {
             <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-red-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
               <FontAwesomeIcon icon={faScroll} />
             </div>
-            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow">
+            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow-xl hover:scale-105 transition ease-out duration-200">
               <div className="flex items-center justify-between space-x-2 mb-1">
                 <div className="font-bold text-slate-900">
                   Proklamasi Kemerdekaan
@@ -173,7 +168,7 @@ export default function SejarahKemerdekaan() {
             <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-red-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
               <FontAwesomeIcon icon={faHandFist} />
             </div>
-            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow">
+            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-4 rounded-lg shadow-xl hover:scale-105 transition ease-out duration-200">
               <div className="flex items-center justify-between space-x-2 mb-1">
                 <div className="font-bold text-slate-900">
                   Perang Kemerdekaan
