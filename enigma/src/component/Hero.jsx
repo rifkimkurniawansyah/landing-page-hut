@@ -15,7 +15,7 @@ export default function Hero() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="bg-gradient-to-r opacity-70 hover:opacity-100 rounded-lg from-blue-500 to-blue-900 text-white p-8 shadow-lg">
+        <div className="bg-gradient-to-r opacity-70 hover:opacity-100 rounded-lg from-blue-500 to-blue-900 text-white p-8 shadow-lg max-sm:px-2">
           <div className="text-center">
             <h2 className="text-4xl font-extrabold mb-4">Celebrate</h2>
             <p className="text-lg mb-4">With Enigma</p>
@@ -27,7 +27,7 @@ export default function Hero() {
                 <button className="bg-white hover:bg-blue-900 text-black hover:text-white font-bold py-2 px-4 rounded-full">
                   Join Now
                 </button>
-                <button className="bg-gray-800 hover:bg-gray-700 text-white hover:text-black font-bold py-2 px-4 rounded-full">
+                <button className="ring-1 ring-blue-400 hover:bg-blue-900 font-bold text-whitefont-bold py-2 px-4 rounded-full">
                   Learn More
                 </button>
               </div>
