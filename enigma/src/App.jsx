@@ -1,9 +1,7 @@
-// import { useState } from "react";
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import AboutUs from "./component/AboutUs.jsx";
-import Hero from "./component/Hero.jsx";
-import Navbar from "./component/Navbar.jsx";
+import GrowWithEnigma from "./components/GrowWithEnigma.jsx";
+import AboutUs from "./components/AboutUs.jsx";
+import Hero from "./components/Hero.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
@@ -11,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <AboutUs />
+        <GrowWithEnigma/>
     </>
   );
 }
