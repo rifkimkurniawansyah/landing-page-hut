@@ -1,14 +1,13 @@
 // import background from "../assets/Indonesia_island_red.png";
 import axel from "../assets/member_photos/axel_photo.png";
+import ipin from "../assets/member_photos/ipin.png";
 import defPP from "../assets/member_photos/default_profile.jpg";
-import logo from "../assets/HUT RI 79 - Logo Utama - Warna.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 export default function AboutUs() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -27,13 +26,11 @@ export default function AboutUs() {
   };
   return (
     <section>
-      <div className="bg-red-500 text-white py-8 flex items-center justify-center">
-        <img
-          src={logo}
-          alt="logo 79"
-          className="w-[10%] h-auto rounded-lg shadow-lg mr-4"
-        />
-        <h1 className="text-4xl font-bold">About Us</h1>
+      <div className="relative flex py-5 items-center">
+        <div className="flex-grow border border-red-400 "></div>
+        <h1 className="flex-shrink mx-4 text-red-600 sm:text-5xl text-4xl text-center font-semibold">
+          ABOUT US
+        </h1>
       </div>
       <div className="flex justify-between px-8 py-16">
         <div className="bg-gray-300 opacity-85 w-[45%] text-center rounded-lg p-1">
@@ -63,17 +60,17 @@ export default function AboutUs() {
       </div>
       <div className="bg-red-500 text-white py-12">
         <div className="text-center mb-10">
-          <h3 className="text-4xl text-white font-bold">Meet the</h3>
-          <h3 className="text-4xl text-[#182b66] font-bold">Team</h3>
+          <h3 className="text-4xl sm:text-5xl text-white font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+            MEET THE
+          </h3>
+          <h3 className="text-4xl sm:text-5xl text-white font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+            TEAM
+          </h3>
           <p className="mt-2 text-white">Who developed this website</p>
         </div>
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 md:px-12"> */}
         <div className="m-20">
-          <Carousel
-            responsive={responsive}
-            containerClass="carousel-container"
-            mr-12
-          >
+          <Carousel responsive={responsive} containerClass="carousel-container">
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
               <img
                 src={defPP}
@@ -94,12 +91,12 @@ export default function AboutUs() {
             </div>
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
               <img
-                src={defPP}
+                src={ipin}
                 alt="pp"
                 className="w-32 h-32 rounded-full mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Name</h3>
-              <p className="text-sm">Name</p>
+              <h3 className="text-xl font-semibold mb-2">Nur</h3>
+              <p className="text-sm">Aripin</p>
             </div>
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
               <img
