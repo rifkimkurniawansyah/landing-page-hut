@@ -1,0 +1,19 @@
+.rotate-right {
+  transform: rotate(12deg);
+}
+
+.rotate-left {
+  transform: rotate(-12deg);
+}
+
+.transition-transform {
+  transition: transform 0.5s;
+}
+
+.hover-rotate-right:hover {
+  transform: rotate(12deg);
+}
+
+.hover-rotate-left:hover {
+  transform: rotate(-12deg);
+}
