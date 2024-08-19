@@ -1,17 +1,18 @@
+import axelImg from "../assets/member_images/axel_photo.png";
+
 const teamMembers = [
-  {
-    name: "Axel Barlian",
-    title: "Paria",
-    description: "Lorem ipsum dolor sit amet.",
-    imageUrl:
-      "https://i.pinimg.com/564x/25/b4/2b/25b42b59b9633a9198b1e5cf65bb0492.jpg",
-  },
   {
     name: "Alfin",
     title: "Paria",
     description: "Lorem ipsum dolor sit amet.",
     imageUrl:
       "https://i.pinimg.com/564x/25/b4/2b/25b42b59b9633a9198b1e5cf65bb0492.jpg",
+  },
+  {
+    name: "Axel",
+    title: "Barlian",
+    description: "Unite Enigmanians!",
+    imageUrl: axelImg,
   },
   {
     name: "Aripin",
