@@ -4,11 +4,8 @@
 import AboutUs from "./component/AboutUs.jsx";
 import Hero from "./component/Hero.jsx";
 import Navbar from "./component/Navbar.jsx";
-// import "./App.css";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar />

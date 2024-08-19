@@ -58,12 +58,12 @@ export default function AboutUs() {
           </blockquote>
         </div>
       </div>
-      <div className="bg-red-500 text-white py-12">
+      <div className="bg-red-500 text-white py-12 rounded-lg">
         <div className="text-center mb-10">
           <h3 className="text-4xl sm:text-5xl text-white font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
             MEET THE
           </h3>
-          <h3 className="text-4xl sm:text-5xl text-white font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+          <h3 className="text-4xl sm:text-5xl text-white  font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] ">
             TEAM
           </h3>
           <p className="mt-2 text-white">Who developed this website</p>
