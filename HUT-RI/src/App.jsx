@@ -5,6 +5,7 @@ import FilosofiLogo from "./components/FilosofiLogo";
 import SejarahKemerdekaan from "./components/SejarahKemerdekaan";
 import bg from "/bg.png";
 import "animate.css/animate.compat.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         backgroundSize: "cover",
       }}
     >
+      <Navbar />
       <Hero />
       <FilosofiLogo />
       <SejarahKemerdekaan />

@@ -24,29 +24,27 @@
 .fade-in {
   animation: fadeIn 1s ease-out;
 }
-/* 
-section {
-  display: flex;
-  animation: swipe var(--speed) linear infinite backwards;
-}
 
-@keyframes swipe {
-  0% {
-    transform: translate(0);
-  }
-
-  100% {
-    transform: translate(-100%);
-  }
-}
-.inner {
-  position: relative;
-  width: 100%;
+.marquee {
+  white-space: nowrap;
   overflow: hidden;
-  height: 5rem;
 }
 
-.wrapper {
-  position: absolute;
-  display: flex;
-} */
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee2 span {
+  animation-delay: 5s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
