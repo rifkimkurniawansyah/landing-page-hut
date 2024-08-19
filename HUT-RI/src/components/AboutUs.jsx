@@ -2,6 +2,7 @@
 import axel from "../assets/member_photos/axel_photo.png";
 import ipin from "../assets/member_photos/ipin.png";
 import zul from "../assets/member_photos/zul.png";
+import rifki from "../assets/member_photos/rifki.png";
 import defPP from "../assets/member_photos/default_profile.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -101,12 +102,12 @@ export default function AboutUs() {
             </div>
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
               <img
-                src={defPP}
+                src={rifki}
                 alt="pp"
                 className="w-32 h-32 rounded-full mb-4 object-cover"
               />
               <h3 className="text-xl font-semibold mb-2">Rifki</h3>
-              <p className="text-sm">Name</p>
+              <p className="text-sm">Mohamad</p>
             </div>
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
               <img
