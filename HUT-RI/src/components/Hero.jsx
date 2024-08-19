@@ -1,7 +1,7 @@
 
 const Hero = () => {
     return (
-      <section className="custom-gradient h-screen flex flex-col justify-between p-4 md:p-8 relative overflow-hidden">
+      <section className="custom-gradient h-screen flex flex-col justify-between p-4 md:p-32 relative overflow-hidden">
         <div className="absolute inset-0 w-full h-full z-0"></div>
   
         <div className="relative z-20 flex flex-col justify-between h-full">  

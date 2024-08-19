@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 .custom-gradient {
-    background: linear-gradient(to bottom, rgba(250, 122, 122, 0.5) 3%, #ffffff 33%);
+    background: linear-gradient(to bottom, rgba(250, 122, 122, 0.5) 13%, #ffffff 33%);
+}
+.navbar-bg{
+    background-color: rgba(250, 122, 122, 0.5);
 }
 
 @keyframes fadeIn {

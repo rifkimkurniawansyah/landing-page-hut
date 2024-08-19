@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      <header className="flex justify-between items-center p-4 md:p-8 bg-red-00">
+      <header className="flex justify-between items-center p-4 md:p-8 navbar-bg">
         <img
           src="../src/assets/logo79.png"
           alt="Logo 79"
