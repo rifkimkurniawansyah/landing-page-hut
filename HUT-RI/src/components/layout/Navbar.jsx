@@ -38,14 +38,14 @@ const Navbar = () => {
 
             {/* Mobile NavBar */}
             {isOpen && (
-                <nav className="flex flex-col space-y-8 justify-center items-end font-bold text-red-400 absolute h-full z-40 left-0 bottom-0 w-full backdrop-blur-md p-4 md:hidden shadow-lg text-xl">
-                    <a href="#" className="hover:text-red-500 transition-colors hover:underline hover:underline-offset-8 hover:underline-">
+                <nav className="flex flex-col space-y-8 justify-center items-end font-bold text-slate-700 absolute h-full z-40 left-0 bottom-0 w-full backdrop-blur-lg p-4 md:hidden shadow-lg text-xl">
+                    <a href="#" className="hover:text-red-500 transition-colors hover:underline hover:underline-offset-8">
                         Filosofi Logo
                     </a>
-                    <a href="#" className="hover:text-red-600 transition-colors">
+                    <a href="#" className="hover:text-red-600 transition-colors hover:underline hover:underline-offset-8">
                         Sejarah Kemerdekaan
                     </a>
-                    <a href="#" className="hover:text-red-600 transition-colors">
+                    <a href="#" className="hover:text-red-600 transition-colors hover:underline hover:underline-offset-8">
                         About Us
                     </a>
                 </nav>

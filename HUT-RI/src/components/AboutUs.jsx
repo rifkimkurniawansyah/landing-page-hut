@@ -33,10 +33,10 @@ export default function AboutUs() {
         </h1>
       </div>
       <div className="flex justify-between px-8 py-16 sm:flex-row flex-col gap-4">
-        <div className="bg-gray-300 opacity-85 sm:w-[45%] w-full text-center rounded-lg p-1">
+        <div className="bg-blue-50/0 backdrop-blur-3xl  sm:w-[45%] w-full text-center rounded-lg p-1 ring-1 ring-slate-400">
           <h2 className="py-4 font-bold text-black">About Indonesia</h2>
-          <hr className="h-px my-2 bg-gray-700 border-0"></hr>
-          <blockquote className="text italic font-semibold text-gray-900 p-5">
+          <hr className="h-px my-2 bg-red-400 border-0"></hr>
+          <blockquote className="text italic  text-slate-600 p-5">
             <p>
               "Indonesia is a country in Southeast Asia and Oceania between the
               Indian and Pacific oceans. It consists of over 17,000 islands,
@@ -45,10 +45,10 @@ export default function AboutUs() {
             </p>
           </blockquote>
         </div>
-        <div className="bg-gray-300 opacity-85 sm:w-[45%] w-full text-center rounded-lg p-1">
+        <div className="bg-blue-50/0 backdrop-blur-3xl sm:w-[45%] w-full text-center rounded-lg p-1 ring-1 ring-slate-400">
           <h2 className="py-4 font-bold text-black">About Enigma</h2>
-          <hr className="h-px my-2 bg-gray-700 border-0"></hr>
-          <blockquote className="text italic font-semibold text-gray-900 p-5">
+          <hr className="h-px my-2 bg-red-400 border-0"></hr>
+          <blockquote className="text italic  text-slate-600 p-5">
             <p>
               "Enigma specialized in IT Bootcamp and Talent Management, offering
               two key programs: Talent as a Service and Training as a Service.
