@@ -1,6 +1,7 @@
 // import background from "../assets/Indonesia_island_red.png";
 import axel from "../assets/member_photos/axel_photo.png";
 import ipin from "../assets/member_photos/ipin.png";
+import zul from "../assets/member_photos/zul.png";
 import defPP from "../assets/member_photos/default_profile.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -25,7 +26,7 @@ export default function AboutUs() {
     },
   };
   return (
-    <section>
+    <section id="about-us">
       <div className="relative flex py-5 items-center">
         <div className="flex-grow border border-red-400 "></div>
         <h1 className="flex-shrink mx-4 text-red-600 sm:text-5xl text-4xl text-center font-semibold">
@@ -77,7 +78,7 @@ export default function AboutUs() {
                 alt="pp"
                 className="w-32 h-32 rounded-full mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Name</h3>
+              <h3 className="text-xl font-semibold mb-2">Alfin</h3>
               <p className="text-sm">Name</p>
             </div>
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
@@ -104,17 +105,17 @@ export default function AboutUs() {
                 alt="pp"
                 className="w-32 h-32 rounded-full mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Name</h3>
+              <h3 className="text-xl font-semibold mb-2">Rifki</h3>
               <p className="text-sm">Name</p>
             </div>
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
               <img
-                src={defPP}
+                src={zul}
                 alt="pp"
                 className="w-32 h-32 rounded-full mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Name</h3>
-              <p className="text-sm">Name</p>
+              <h3 className="text-xl font-semibold mb-2">Zul F</h3>
+              <p className="text-sm">Baihaqi</p>
             </div>
           </Carousel>
         </div>
