@@ -1,16 +1,11 @@
-import AboutUs from './components/AboutUs'
+import AboutUs from "./components/AboutUs";
 
 import SejarahKemerdekaan from "./components/SejarahKemerdekaan";
 import bg from "/bg.png";
 import "animate.css/animate.compat.css";
 
 function App() {
-
   return (
-    <>
-      <AboutUs />
-    </>
-  )
     <div
       className="bg-fixed overflow-hidden"
       style={{
@@ -21,6 +16,7 @@ function App() {
       }}
     >
       <SejarahKemerdekaan />
+      <AboutUs />
     </div>
   );
 }
