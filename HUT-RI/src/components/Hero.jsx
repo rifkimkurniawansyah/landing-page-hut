@@ -23,17 +23,18 @@ const Hero = () => {
           </nav>
         </div>
 
-        <div className="text-center mb-8 px-4">
+        <div className="text-center justify-center mx-auto my-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-red-600 fade-in">
             Dirgahayu
           </h1>
           <h1 className="text-4xl md:text-6xl font-bold text-red-600 fade-in mt-2">
             Republik Indonesia
           </h1>
-          <p className="relative text-gray-600 p-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          <p className="relative text-black p-4">
+            Bersatu kita teguh, bercerai kita runtuh,
             <br />
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Mari kita jaga persatuan dan kesatuan bangsa, Demi masa depan yang
+            lebih gemilang.
           </p>
         </div>
       </div>
