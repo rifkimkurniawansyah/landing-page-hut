@@ -1,4 +1,3 @@
-import React from "react";
 // import background from "../assets/Indonesia_island_red.png";
 import axel from "../assets/member_photos/axel_photo.png";
 import defPP from "../assets/member_photos/default_profile.jpg";
@@ -38,21 +37,21 @@ export default function AboutUs() {
       </div>
       <div className="flex justify-between px-8 py-16">
         <div className="bg-gray-300 opacity-85 w-[45%] text-center rounded-lg p-1">
-          <h2 className="py-4 font-bold text-white">About Indonesia</h2>
-          <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-white-700"></hr>
-          <blockquote className="text italic font-semibold text-gray-900 dark:text-white p-5">
+          <h2 className="py-4 font-bold text-black">About Indonesia</h2>
+          <hr className="h-px my-2 bg-gray-700 border-0"></hr>
+          <blockquote className="text italic font-semibold text-gray-900 p-5">
             <p>
               "Indonesia is a country in Southeast Asia and Oceania between the
               Indian and Pacific oceans. It consists of over 17,000 islands,
               including Sumatra, Java, Sulawesi, and parts of Borneo and New
-              Guinea. "
+              Guinea."
             </p>
           </blockquote>
         </div>
         <div className="bg-gray-300 opacity-85 w-[45%] text-center rounded-lg p-1">
-          <h2 className="py-4 font-bold text-white">About Enigma</h2>
-          <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-white-700"></hr>
-          <blockquote className="text italic font-semibold text-gray-900 dark:text-white p-5">
+          <h2 className="py-4 font-bold text-black">About Enigma</h2>
+          <hr className="h-px my-2 bg-gray-700 border-0"></hr>
+          <blockquote className="text italic font-semibold text-gray-900 p-5">
             <p>
               "Enigma specialized in IT Bootcamp and Talent Management, offering
               two key programs: Talent as a Service and Training as a Service.
