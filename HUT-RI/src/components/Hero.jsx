@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="h-screen flex flex-col justify-between relative overflow-hidden"
+      className="sm:h-[520px] h-[565px] flex flex-col justify-between relative overflow-hidden"
     >
       <div className="relative z-20 flex flex-col justify-between h-full px-8">
         <div className="mx-auto my-auto px-4 fade-in">
