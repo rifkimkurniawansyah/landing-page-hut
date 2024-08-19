@@ -32,8 +32,8 @@ export default function AboutUs() {
           ABOUT US
         </h1>
       </div>
-      <div className="flex justify-between px-8 py-16">
-        <div className="bg-gray-300 opacity-85 w-[45%] text-center rounded-lg p-1">
+      <div className="flex justify-between px-8 py-16 sm:flex-row flex-col gap-4">
+        <div className="bg-gray-300 opacity-85 sm:w-[45%] w-full text-center rounded-lg p-1">
           <h2 className="py-4 font-bold text-black">About Indonesia</h2>
           <hr className="h-px my-2 bg-gray-700 border-0"></hr>
           <blockquote className="text italic font-semibold text-gray-900 p-5">
@@ -45,7 +45,7 @@ export default function AboutUs() {
             </p>
           </blockquote>
         </div>
-        <div className="bg-gray-300 opacity-85 w-[45%] text-center rounded-lg p-1">
+        <div className="bg-gray-300 opacity-85 sm:w-[45%] w-full text-center rounded-lg p-1">
           <h2 className="py-4 font-bold text-black">About Enigma</h2>
           <hr className="h-px my-2 bg-gray-700 border-0"></hr>
           <blockquote className="text italic font-semibold text-gray-900 p-5">
