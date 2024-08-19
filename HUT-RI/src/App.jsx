@@ -1,4 +1,3 @@
-import "./App.css";
 import FilosofiLogo from "./components/FilosofiLogo";
 
 function App() {
