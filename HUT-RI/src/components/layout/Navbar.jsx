@@ -16,11 +16,11 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex justify-between items-center p-4 md:p-8 font-bold">
+    <header className="flex justify-between items-center p-4 font-bold">
       <img
         src="../src/assets/logo79.png"
         alt="Logo 79"
-        className="w-32 md:w-40 h-auto animate-bounce"
+        className="w-32 h-auto animate-bounce"
       />
 
       {/* Desktop NavBar */}
