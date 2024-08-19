@@ -3,23 +3,50 @@
 @tailwind utilities;
 
 .custom-gradient {
-    background: linear-gradient(to bottom, rgba(250, 122, 122, 0.5) 13%, #ffffff 33%);
-}
-.navbar-bg{
-    background-color: rgba(250, 122, 122, 0.5);
+  background: linear-gradient(
+    to bottom,
+    rgba(250, 122, 122, 0.5) 3%,
+    #ffffff 33%
+  );
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .fade-in {
     animation: fadeIn 1s ease-out;
 }
+/*
+section {
+  display: flex;
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+.inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 5rem;
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+} */
