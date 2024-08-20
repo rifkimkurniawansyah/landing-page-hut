@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="flex flex-row px-8 w-screen justify-between items-center fixed z-50">
       <img
-        src="../src/assets/logo79.png"
+        src="./src/assets/logo79.png"
         alt="Logo 79"
         className="w-32 md:w-40 h-auto mb-4 md:mb-0"
       />
