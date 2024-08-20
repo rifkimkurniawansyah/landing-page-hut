@@ -2,7 +2,7 @@
 import axel from "../assets/member_photos/axel_photo.png";
 import ipin from "../assets/member_photos/ipin.png";
 import zul from "../assets/member_photos/zul.png";
-import rifki from "../assets/member_photos/rifki.png";
+import rifki from "../assets/member_photos/rifki-foto.png";
 import Carousel from "react-multi-carousel";
 import alfin from "../assets/member_photos/alfin.png";
 import "react-multi-carousel/lib/styles.css";
