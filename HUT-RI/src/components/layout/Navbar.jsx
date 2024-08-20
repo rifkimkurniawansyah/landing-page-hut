@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <header className="flex justify-between items-center p-4 font-bold">
       <img
-        src="../src/assets/logo79.png"
+        src="./logo79.png"
         alt="Logo 79"
         className="w-32 h-auto animate-bounce"
       />
