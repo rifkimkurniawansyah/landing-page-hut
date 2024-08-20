@@ -46,13 +46,13 @@ const Navbar = () => {
   return (
       <header>
         <div
-            className="z-50 top-0 backdrop-blur-3xl py-1 w-full fixed">
+            className="z-50 top-0 backdrop-blur-3xl py-0.5 w-full fixed">
          <span
              id="progress-bar"
              style={{
                transform: `translateX(${completion - 100}%)`,
              }}
-             className={`absolute bottom-0 w-full transition-transform duration-150 h-1 bg-red-400`}
+             className={`absolute bottom-0 w-full transition-transform duration-150 h-0.5 bg-red-500`}
          />
         </div>
           <div className="flex justify-between items-center p-4 font-bold">

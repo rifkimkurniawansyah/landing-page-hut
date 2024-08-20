@@ -1,4 +1,5 @@
 import axelImg from "../assets/member_images/axel_photo.png";
+import rifkiImg from "../assets/member_images/rifki-foto.png";
 import alfinDinoImg from "../assets/member_images/alfin-dino.jpg";
 
 const teamMembers = [
@@ -25,8 +26,7 @@ const teamMembers = [
     name: "Rifki",
     title: "Sigma",
     description: "Lorem ipsum dolor sit amet.",
-    imageUrl:
-      "https://tr.rbxcdn.com/b222158573472ec00e298c199325639b/420/420/Hat/Webp",
+    imageUrl: rifkiImg,
   },
   {
     name: "Zul",
