@@ -6,7 +6,7 @@ const Hero = () => {
       id="hero"
       className="min-h-screen flex flex-col relative overflow-hidden -mt-24"
     >
-      <div className="my-auto mx-auto z-20 px-8">
+      <div className="my-auto mx-auto px-8">
         <div className="px-4 fade-in">
           <img src={dirgahayu} />
         </div>
