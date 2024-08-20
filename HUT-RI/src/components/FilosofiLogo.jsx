@@ -4,7 +4,7 @@ import contentImage2 from "../assets/Filosopi Elemen.jpg";
 
 export default function FilosofiLogo() {
   return (
-    <section id="filosofi">
+    <section>
       <div className="flex flex-col min-h-screen">
         <header className="bg-red-600 text-white flex items-center justify-center p-6 animate-fadeIn">
           <div className="flex items-center space-x-4">
