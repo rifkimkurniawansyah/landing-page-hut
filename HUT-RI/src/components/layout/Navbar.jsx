@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import {useState} from "react";
+import {FaBars, FaTimes} from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +54,7 @@ const Navbar = () => {
 
       {/* Mobile NavBar */}
       {isOpen && (
-        <nav className="flex flex-col space-y-8 justify-center items-end font-bold text-slate-700 absolute h-full z-40 left-0 bottom-0 w-full backdrop-blur-lg p-4 md:hidden shadow-lg text-xl">
+        <nav className="flex flex-col space-y-8 justify-center items-end font-bold text-gray-900 absolute h-full z-40 left-0 bottom-0 w-full backdrop-blur-lg p-4 md:hidden shadow-lg text-xl">
           <button
             onClick={() => {
               scrollToSection("filosofi");
