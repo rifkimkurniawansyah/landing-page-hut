@@ -3,8 +3,8 @@ import axel from "../assets/member_photos/axel_photo.png";
 import ipin from "../assets/member_photos/ipin.png";
 import zul from "../assets/member_photos/zul.png";
 import rifki from "../assets/member_photos/rifki.png";
-import defPP from "../assets/member_photos/default_profile.jpg";
 import Carousel from "react-multi-carousel";
+import alfin from "../assets/member_photos/alfin.png";
 import "react-multi-carousel/lib/styles.css";
 
 export default function AboutUs() {
@@ -74,13 +74,15 @@ export default function AboutUs() {
         <div className="m-20">
           <Carousel responsive={responsive} containerClass="carousel-container">
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
-              <img
-                src={defPP}
-                alt="pp"
-                className="w-32 h-32 rounded-full mb-4 object-cover"
-              />
-              <h3 className="text-xl font-semibold mb-2">Alfin</h3>
-              <p className="text-sm">Name</p>
+              <div className="w-32 h-32 rounded-full mb-4 overflow-hidden relative">
+                <img
+                    src={alfin}
+                    alt="alfin"
+                    className="brightness-150 object-cover scale-150 absolute -top-20"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Alfin Kurniawan</h3>
+              <p className="text-sm">Aryanto</p>
             </div>
             <div className="bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 carousel-item">
               <img
