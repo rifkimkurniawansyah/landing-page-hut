@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="h-screen justify-around flex flex-col relative overflow-hidden"
+      className="min-h-screen flex flex-col relative overflow-hidden -mt-24"
     >
-      <div className="relative z-20 flex flex-col px-8">
-        <div className="mx-auto my-auto px-4 fade-in">
+      <div className="my-auto mx-auto z-20 px-8">
+        <div className="px-4 fade-in">
           <img src={dirgahayu} />
         </div>
       </div>
