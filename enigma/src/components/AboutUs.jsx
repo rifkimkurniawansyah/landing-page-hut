@@ -1,12 +1,12 @@
 import axelImg from "../assets/member_images/axel_photo.png";
+import alfinDinoImg from "../assets/member_images/alfin-dino.jpg";
 
 const teamMembers = [
   {
     name: "Alfin",
     title: "Paria",
     description: "Lorem ipsum dolor sit amet.",
-    imageUrl:
-      "https://i.pinimg.com/564x/25/b4/2b/25b42b59b9633a9198b1e5cf65bb0492.jpg",
+    imageUrl: alfinDinoImg,
   },
   {
     name: "Axel",
