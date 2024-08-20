@@ -24,7 +24,7 @@ const Navbar = () => {
       />
 
       {/* Desktop NavBar */}
-      <nav className="hidden md:flex space-x-6 text-gray-800 text-lg lg:text-xl">
+      <nav className="hidden md:flex space-x-6 text-gray-800 text-lg lg:text-xl px-10">
         <button
           onClick={() => scrollToSection("filosofi")}
           className="hover:text-red-600 transition-colors"
