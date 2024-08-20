@@ -4,7 +4,7 @@ import contentImage2 from "../assets/Filosopi Elemen.jpg";
 
 export default function FilosofiLogo() {
   return (
-    <section>
+    <section id="filosofi">
       <div className="flex flex-col min-h-screen">
         <header className="bg-red-600 text-white flex items-center justify-center p-6 animate-fadeIn">
           <div className="flex items-center space-x-4">
@@ -52,7 +52,7 @@ export default function FilosofiLogo() {
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-col items-center md:items-start md:w-1/2 mt-6 md:mt-0  pb-2 mb-2">
+                <div className="flex flex-col items-center md:items-start md:w-1/2 mt-6 md:mt-4 pb-2 mb-2">
                   <div className="bg-slate-50 shadow-lg mb-4 p-4 rounded-lg hover:ring-1 hover:ring-red-500">
                     <h2 className="text-xl font-semibold mb-2 transition-opacity duration-500 hover:opacity-75  animate-fadeIn">
                       Logo HUT <span className="text-red-500">ke-79 RI</span>
