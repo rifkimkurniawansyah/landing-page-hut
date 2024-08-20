@@ -86,13 +86,17 @@ const Navbar = () => {
         {/* Mobile Menu Icon */}
         <div className="md:hidden z-50">
           <button onClick={toggleMenu} aria-label="Toggle Menu">
-            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            {isOpen ? (
+              <FaTimes size={24} className="fixed right-0 mx-4" />
+            ) : (
+              <FaBars size={24} />
+            )}
           </button>
         </div>
 
         {/* Mobile NavBar */}
         {isOpen && (
-          <nav className="flex flex-col space-y-8 justify-center items-end font-bold text-gray-900 absolute h-full z-40 left-0 bottom-0 w-full backdrop-blur-2xl p-4 md:hidden shadow-lg text-xl">
+          <nav className="flex flex-col space-y-8 justify-center items-end font-bold text-gray-900 fixed h-full z-40 left-0 bottom-0 w-full backdrop-blur-2xl p-4 md:hidden shadow-lg text-xl">
             <button
               onClick={() => {
                 scrollToSection("filosofi");
